@@ -1,10 +1,22 @@
+
 use beatles_albums;
+db.dropDatabase();
+
 
 db.beatlesalbums.insert([
 {
   title: 'Please Please Me',
-  released: 1962
+  released: 1963
 },
+{
+  title: 'With The Beatles',
+  released: 1963
+},
+{
+  title: "A Hard Day's Night",
+  released: 1964
+},
+
 {
   title: 'Revolver',
   released: 1966
@@ -16,5 +28,3 @@ db.beatlesalbums.insert([
   ]);
 
 db.beatlesalbums.find().pretty();
-
-db.dropDatabase();
