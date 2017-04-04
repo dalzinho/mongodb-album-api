@@ -9,8 +9,8 @@ router.get('/', function (req, res) {
   res.sendFile(path.join(__dirname + '/../client/build'));
 });
 
-// router.get('/about', function(req, res){
-//   res.json({data: "All about us!"});
-// });
+router.get('/about', function(req, res){
+  res.json({data: "All about us!"});
+});
 
 module.exports = router;

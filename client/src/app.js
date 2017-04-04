@@ -1,5 +1,6 @@
+var UI = require('./views/ui')
 var app = function(){
-  console.log('hi mum!')
+  new UI();
 };
 
 window.onload = app;

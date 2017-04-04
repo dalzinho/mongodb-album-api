@@ -10,5 +10,7 @@ AlbumsModel.prototype = {
     request.send();
   },
 
-  
+
 }
+
+module.exports = AlbumsModel;
